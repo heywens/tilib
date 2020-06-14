@@ -1,0 +1,28 @@
+<Alloy>
+	<Window id="winSendMail">		
+		
+		<View id="nav">
+			<Label id="lblTitle" />
+			<Label id="btnCancel" />
+			<Label id="btnSend" />				
+		</View>
+		
+		<View id="oView1">
+			<ScrollView id="iView1">
+				<Widget id="fto" src="dev.first.controls.textinput" />
+				
+				<Widget id="fcc" src="dev.first.controls.textinput" />
+						
+				<Widget id="fbcc" src="dev.first.controls.textinput" />	
+						
+				<Label id="lbl" />
+				
+				<Widget id="fsubject" src="dev.first.controls.textinput" />	
+						
+				<Widget id="trxtype" src="dev.first.controls.combobox" />	
+				
+				<Widget id="fbody" src="dev.first.controls.textarea" />			
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

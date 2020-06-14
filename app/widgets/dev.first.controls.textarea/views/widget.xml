@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="mView">
+		<View id="vBorderTop" class="vBorder" />
+		
+		<View id="cview">
+			<Label id="formItemLabel" />
+			<ScrollView id="ta">
+				<Label id="lblValue" />
+			</ScrollView>
+		</View>	
+		
+		<View id="vBorderBottom" class="vBorder" />
+	</View>
+</Alloy>

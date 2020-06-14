@@ -1,0 +1,13 @@
+{
+	"id": "dev.first.controls.datefield",
+	"name": "dev.first.controls.datefield",
+	"description" : "DateField",
+	"author": "ralipar",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios,mobileweb"
+}

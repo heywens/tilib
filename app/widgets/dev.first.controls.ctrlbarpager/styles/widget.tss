@@ -1,0 +1,88 @@
+"View": {
+	backgroundColor: "#363637",
+	layout : "composite"
+},
+
+"Button": {
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+	backgroundColor : "transparent",
+	color : "#000",
+
+	font : {
+		fontFamily: "Open Sans", 
+		fontSize : "18dp"
+	}
+},
+
+"Button[platform=android]": {
+	font : {
+		fontFamily: "OpenSans-Regular", 
+		fontSize : "18dp"
+	}
+},
+
+"#lblPage": {
+	color : "#FFFFFF",
+	textAlign: "center",
+	width : "80%",
+	height : 50,
+	
+	font : {
+		fontFamily: "Open Sans", 
+		fontSize : "16dp"
+	}
+},
+
+"#lblPage[platform=android]": {
+	font : {
+		fontFamily: "OpenSans-Regular", 
+		fontSize : "16dp"
+	}
+},
+
+"#ctrlbar": {
+	width : "100%",
+	height : 50,
+	bottom : 0
+},
+
+"#oView1": {
+	width : "75%",
+	height : "100%",
+	left : 10
+},
+
+"#btnBack": {
+	text : "<",
+	left : 0
+},
+
+"#btnForward": {
+	text : ">",
+	right : 0
+},
+
+".pagerArrow": {
+	color : "#fff",
+	height : 31,
+	width : Ti.UI.SIZE,
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "30dp"
+	}
+}
+
+"#btnOptions": {
+	text : "[",
+	width : 40,
+	height : 31,
+	right : 15,
+	color : "#fff",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "30dp"
+	}
+}

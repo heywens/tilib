@@ -1,0 +1,109 @@
+"TextArea": {
+	width: Titanium.UI.FILL,
+	height : 200
+},
+
+"TextArea[platform=android]": {
+	softKeyboardOnFocus : Titanium.UI.Android.SOFT_KEYBOARD_SHOW_ON_FOCUS
+},
+
+"#lblTitle": {
+	textAlign : "center",
+	width : "100%",
+	height : 50,
+	backgroundColor : "#2B3F4E",
+
+	font : {
+		fontSize : "18dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	}
+},
+
+"#lblTitle[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"Label": {
+	color : "#FFFFFF",
+	height : 30,
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#winTextArea": {
+	width : "100%",
+	layout : "composite",
+	height : "100%",
+	opacity : 1,
+	navBarHidden : true
+},
+
+"#trans": {
+	width : "100%",
+	height : "100%",
+	backgroundColor : "#000000",
+	opacity : 0.6
+},
+
+"#mView": {
+	height : Ti.UI.SIZE,
+	width : "80%",
+	opacity : 1,
+	layout : "vertical",
+	backgroundColor : "#FFFFFF"
+},
+
+"#txtValueSetter": {
+	height : 200,
+	width : "98%",
+	backgroundColor : "white",
+	top : 5,
+	bottom : 5,
+	left : "1%",
+	right : "1%",
+	borderWidth : 1,
+	borderColor : "#BEBEBE"
+},
+
+"#navBottom": {
+	width : "100%",
+	layout : "composite",
+	height : 50,
+	backgroundColor : "#2B3F4E"	
+},
+
+"#btnCancel": {
+	text : "Cancel",
+	width : "49%",
+	textAlign : "center",
+	height : "100%",
+	left : 0
+},
+
+"#iView1": {
+	width : 0.5,
+	backgroundColor : "#FFFFFF",
+	height : "85%"
+},
+
+"#btnDone": {
+	text : "Done",
+	width : "49%",
+	textAlign : "center",
+	height : "100%",
+	right : 0
+}

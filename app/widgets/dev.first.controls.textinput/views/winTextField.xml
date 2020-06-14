@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="winTextField">		
+		
+		<View id="trans" />
+		
+		<View id="mView"> 
+			<Label id="lblTitle" />
+			<TextField id="txtValueSetter" />
+			
+			<View id="ctrlBar">
+				<Label id="btnCancel" />
+				<View id="separator"  />
+				<Label id="btnDone" />				
+			</View>
+		</View>
+		
+	</Window>
+</Alloy>

@@ -1,0 +1,83 @@
+"#formItemLabel": {
+	textAlign : "left",
+	height : 30,
+
+	font: {
+		fontSize : "16dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	},
+	
+	left : 15,
+	width : "40%",
+	height : Ti.UI.SIZE
+},
+
+"#formItemLabel[platform=mobileweb]": {
+	touchEnabled : false
+},
+
+"#formItemLabel[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"#lblDate": {
+	textAlign : "right",
+	color : "#365583",
+	height : 30,
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	},
+	
+	width : "60%",
+	right : 15
+},
+
+"#lblDate[platform=android]": {
+	font : {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+
+"#touchpoint": {
+	right : 15,
+	height : 50,
+	width : 100
+},
+
+".vBorder": {
+	backgroundColor : "#C2C7C8",
+	height : 1,
+	width : "100%"
+},
+
+"#vBorderTop": {
+	top : 0
+},
+
+"#vBorderBottom": {
+	bottom : 0
+},
+
+"#mView": {
+	backgroundColor : "#FFFFFF",
+	layout : "absolute",
+	height : Ti.UI.SIZE,
+	width : "100%",
+	left : 0
+},
+
+"#cview": {
+	layout : "composite",
+	height : 30,
+	width : "100%",
+	top : 10,
+	bottom : 10
+}

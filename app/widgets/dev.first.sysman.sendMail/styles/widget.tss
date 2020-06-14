@@ -1,0 +1,141 @@
+"#lbl": {
+	color : "#0000FF",
+	text : "Separate multiple emails with comma (,)",
+	width : "95%",
+	top : 1,
+
+	font : {
+		fontSize : "10dp",
+		fontStyle: "italic",
+		fontFamily: "Open Sans"
+	}
+},
+
+"#lbl[platform=android]":{
+	font : {
+		fontSize : "10dp",
+		fontFamily: "OpenSans-Italic"
+	}
+},
+
+"#lblTitle": {
+	textAlign : "center",
+	height : Ti.UI.SIZE,
+	width : "100%",
+	text : "Send Mail",
+
+	font : {
+		fontSize : "18dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	}
+},
+
+"#lblTitle[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"Label": {
+	color : "#FFFFFF",
+	height : 30,
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"Window": { 
+	backgroundColor:"#D7DADB"
+},
+
+"#winSendMail": {
+	width : "100%",
+	layout : "vertical",
+	height : "100%",
+	navBarHidden : true
+},
+
+"#nav": {
+	width : "100%",
+	layout : "composite",
+	height : 50,
+	backgroundColor : "#2B3F4E"
+},
+
+"#btnCancel": {
+	text : "Cancel",
+	width : 60,
+	left : 10
+},
+
+"#btnSend": {
+	text : "Send",
+	width : 60,
+	textAlign : "right",
+	right : 10
+},
+
+"#oView1": {
+	height : Ti.UI.SIZE,
+	width : Ti.UI.FILL,
+	backgroundColor : "#D7DADB"
+},
+
+"#iView1": {
+	height : Ti.UI.FILL,
+	width : "100%"
+},
+
+"#fto": {
+	label : "To",
+	lowerCase : true,
+	maxChars : 256,
+	top : 10,
+	labelWidth : "20%",
+	tiWidth : "80%"
+},
+
+"#fcc": {
+	label : "Cc",
+	lowerCase : true,
+	maxChars : 256,
+	labelWidth : "20%",
+	tiWidth : "80%"
+},
+
+"#fbcc": {
+	label : "Bcc",
+	lowerCase : true,
+	maxChars : 256,
+	labelWidth : "20%",
+	tiWidth : "80%"
+},
+
+"#fsubject": {
+	label : "Subject",
+	maxChars : 256,
+	top : 10
+},
+
+"#trxtype": {
+	label : "Attachment",
+	top : 10
+},
+
+"#fbody": {
+	label : "Message",
+	maxChars : 1024,
+	bottom : 20,
+	top : 10
+}

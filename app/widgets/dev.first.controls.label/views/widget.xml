@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="mView">
+
+		<View id="cview">
+			<Label id="formItemLabel" />
+			<Label id="lbl" />
+		</View>	
+		
+	</View>
+</Alloy>

@@ -1,0 +1,22 @@
+<Alloy>
+	<Window id="winSearch">	
+		<View id="nav">
+			<Label id="lblTitle" />
+			<Label id="btnCancel" />
+			<Label id="btnReset" />
+		</View>
+		
+		<View id="searchBar">
+			<View id="vSearch">
+				<TextField id="fkeyword" />
+				<Label id="btnClear" />
+			</View>
+			<Label id="btnSearch" />
+		</View>
+		
+		<TableView id="tblView" />
+		
+		<Widget id="ctrlbar" src="dev.first.controls.ctrlbarpager"/>
+		
+	</Window>
+</Alloy>

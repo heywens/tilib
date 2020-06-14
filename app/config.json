@@ -1,0 +1,14 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "dev.first.sysman.logonPage": "1.0",
+        "dev.first.sysman.initialSetup": "1.0"
+    }
+}

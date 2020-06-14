@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="winInfo">
+		
+		<View id="trans" />
+		
+		<View id="mView">
+			<Label id="msg" />
+			<View id='opt' />
+		</View>	
+	</Window>
+</Alloy>

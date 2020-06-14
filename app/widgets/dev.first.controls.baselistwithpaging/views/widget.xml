@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="mView">
+		<TableView id="dgList" />	
+		
+		<Widget id="ctrlbar" src="dev.first.controls.ctrlbarpager"/>
+	</View>
+</Alloy>

@@ -1,0 +1,9 @@
+<Alloy>
+	<View id='TabGroup'>
+		<View id='tabBody' />
+		
+		<View id="tabBar">
+			<View id='tabMenu' />			
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="winTextArea">
+		
+		<View id="trans" />
+		
+		<View id="mView"> 
+			<Label id="lblTitle" />			
+			<TextArea id="txtValueSetter" />		
+			
+			<View id="navBottom">
+				<Label id="btnCancel" />
+				<View  id="iView1" />
+				<Label id="btnDone" />				
+			</View>
+		</View>
+		
+	</Window>
+</Alloy>

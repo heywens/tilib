@@ -1,0 +1,53 @@
+<Alloy>
+	<Window id="winPicker">
+		
+		<View id="trans" />
+		
+		<View id="mView"> 
+			
+			<View id="nav">
+				<Label id="lblTitle" />				
+			</View>
+			
+			<View width="100%" height="220" platform="ios">
+				<Picker top="10" id="fperiod" type="Ti.UI.PICKER_TYPE_DATE" selectionIndicator="true"
+						width="100%" height="Ti.UI.SIZE" backgroundColor="#000" />
+			</View>			
+			
+			<View id="CDateCont" height="125" top="10" width="300" bottom="5" left="0" right="5"
+					layout="horizontal" platform="mobileweb,android">
+				
+				<View height="125" width="32%" layout="composite">
+					<Label id="madd" text="^" class="arrows" top="0" />
+					<Label id="lblmonth" class="dateLabel" />
+					<Label id="mmin" text="v" class="arrows" bottom="0" />
+				</View>
+				
+				<View height="125" width="2%" />
+				
+				<View height="125" width="32%" layout="composite">
+					<Label id="dadd" text="^" class="arrows" top="0" />
+					<Label id="lblday" class="dateLabel" />
+					<Label id="dmin" text="v" class="arrows" bottom="0" />
+				</View>
+				
+				<View height="125" width="2%" />
+				
+				<View height="125" width="32%" layout="composite">
+					<Label id="yadd" text="^" class="arrows" top="0" />
+					<Label id="lblyear" class="dateLabel" />
+					<Label id="ymin" text="v" class="arrows" bottom="0" />
+				</View>
+				
+			</View>
+			
+			<View id="navBottom">
+				<Label id="btnCancel" />
+				<View id="iView1" />
+				<Label id="btnDone" />				
+			</View>
+			
+		</View>
+		
+	</Window>
+</Alloy>	

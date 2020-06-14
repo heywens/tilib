@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="winSplash">
+		
+		<View id="oView1">
+			<ActivityIndicator id="mSplash" />
+			<Label id="lblMessage" />
+		</View>
+		
+	</Window>
+</Alloy>

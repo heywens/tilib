@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="winSetup">
+		<!-- Transparent/glass background for modal -->
+		<View id="transView"/>
+		
+		<View id="oView1">
+			<Label id="lblUrl"/>
+		
+			<View id="iView1">
+				<TextField id="txtAddress1"/>
+				<TextField id="lblAddress"/>
+			</View>	
+			
+			<View id="navBottom">
+				<Label id="btnCancel"/>
+				<View id="iView2"/>
+				<Label id="btnOK"/>				
+			</View>		
+		</View>
+	</Window>
+</Alloy>

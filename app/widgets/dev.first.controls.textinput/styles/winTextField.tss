@@ -1,0 +1,118 @@
+"TextField": {
+	height: Titanium.UI.SIZE,
+	width: "100%",
+	borderWidth : 0
+},
+
+"TextField[platform=ios formFactor=handheld]": {
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_NONE
+},
+
+"TextField[platform=ios formFactor=tablet]": {
+	borderStyle : Titanium.UI.INPUT_BORDERSTYLE_NONE
+},
+
+"#lblTitle": {
+	textAlign : "center",
+	width : "100%",
+
+	font : {
+		fontSize : "18dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	},
+	
+	height : 50,
+	backgroundColor : "#2B3F4E"
+},
+
+"#lblTitle[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"Label": {
+	color : "#FFFFFF",
+	height : 30,
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"Window": {
+	width: "100%",
+	layout: "composite",
+	height : "100%",
+	opacity : 1
+},
+
+"#trans": {
+	width : "100%",
+	height : "100%",
+	backgroundColor : "#000000",
+	opacity : 0.6
+},
+
+"#mView": {
+	height : Titanium.UI.SIZE,
+	width : "80%",
+	opacity : 1,
+	layout : "vertical",
+	backgroundColor : "#FFFFFF"
+},
+
+"#mView[platform=mobileweb]": {
+	top : 50
+},
+
+"#txtValueSetter": {
+	height : 40,
+	width : "98%",
+	backgroundColor : "#ffffff",
+	top : 10,
+	bottom : 10, 
+	left : "1%",
+	right : "1%",
+	borderWidth : 1,
+	borderColor: "#bebebe"
+}
+
+"#ctrlBar": {
+	width : "100%",
+	height : 50,
+	layout : "composite",
+	backgroundColor: "#2b3f4e"
+},
+
+"#btnCancel": {
+	width : "49%",
+	height : "100%",
+	left : 0,
+	text : "Cancel",
+	textAlign : "center"
+},
+
+"#btnDone": {
+	width : "49%",
+	height : "100%",
+	right : 0,
+	text : "Done",
+	textAlign : "center"
+},
+
+"#separator": {
+	width : 0.5, 
+	backgroundColor : "#FFFFFF",
+	height : "85%"
+}

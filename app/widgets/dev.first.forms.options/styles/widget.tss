@@ -1,0 +1,72 @@
+"Label": {
+	textAlign : "center",
+	color : "#FFFFFF",
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+
+	font : {
+		fontSize : "18dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+
+"#title": {
+	textAlign : "center",
+	color : "#FFFFFF",
+
+	font : {
+		fontSize : "20dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	},
+	
+	height : Ti.UI.SIZE,
+	width : "80%",
+	top : 10,
+	backgroundColor : "#000000"
+},
+
+"#title[platform=android]": {
+	font: {
+		fontSize : "20dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"#winOptions": {
+	layout : "composite",
+	width : "100%",
+	height : "100%",
+	opacity : 1,
+	navBarHidden : true
+},
+
+"#trans": {
+	width : "100%",
+	height : "100%",
+	backgroundColor : "#000000",
+	opacity : 0.6
+},
+
+"#mView": {
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE,
+	layout : "vertical",
+	opacity : 1
+},
+
+"#opt": {
+	width : "80%",
+	height : Ti.UI.SIZE,
+	layout : "vertical",
+	bottom : 10,
+	backgroundColor : "#2B3F4E"
+}

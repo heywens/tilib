@@ -1,0 +1,17 @@
+<Alloy>
+	<View id="mView">
+		
+		<View id="cview">
+			<View id="vformItemLabel">
+				<Label id="formItemLabel" />
+			</View>
+			<View id="vlblValue">
+				<Label id="lblValue" />
+				<View id="vSelect">
+					<Label id="icoPointer" />
+				</View>
+			</View>
+		</View>	
+
+	</View>
+</Alloy>

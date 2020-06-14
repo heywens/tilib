@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id="mainWindow">
+		<View id="menuView">
+			<View id="vTop">
+				<View id="oView1">
+					<Label id="lblHeader1" />
+					<Label id="lblHeader2" />
+				</View>
+				<TableView id="menuTable" />
+			</View>
+			<View id="mFooter">
+				<Label id="icoLogout" />
+				<Label id="lblFooter" />
+			</View>
+		</View>
+		
+		<View id="contentView">
+			<View id="nav">
+				<Label id="winTitle"/>
+				
+				<View id='leftButtonView'>
+					<Label id="icoLeftButton" />
+				</View>
+				
+				<View id='backButtonTitleView'>
+					<Label id="icoBack" />
+					<Label id="backButtonTitle" />
+				</View>
+				
+				<View id='rightButtonView'>
+					<Label id="icoRightButton" />
+				</View>
+			</View>
+			
+			<View id="mainView" layout="composite" />
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="mView">
+		<Label id="formItemLabel" />
+		
+		<Require type="widget" src="dev.first.controls.datefield"
+				id="fperiod_fsdate" />
+				
+		<Require type="widget" src="dev.first.controls.datefield"
+				id="fperiod_fedate" />
+						
+	</View>	
+</Alloy>

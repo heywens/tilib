@@ -1,0 +1,26 @@
+<Alloy>
+	<View id="mView">
+		<View id="vBorderTop" class="vBorder" />
+		
+		<View id="cview">
+			<View id="vformItemLabel">
+				<Label id="formItemLabel" />
+			</View>
+			
+			<View id="vios" width="35%" height="Ti.UI.SIZE" platform="ios" right="15">
+				<Switch id="cb" right="0" width="80" height="50" backgroundColor="#FFFFFF" />
+			</View>
+			
+			<View id="voth" width="35%" height="Ti.UI.SIZE" platform="android,mobileweb" right="15">
+				<View id="cb1" right="0" width="50" height="30" backgroundColor="#F4F4F4" 
+						borderRadius="30" borderColor="#BEBEBE" borderWidth="1">
+					<View id="cb2" left="0" width="30" height="30" backgroundColor="#FFFFFF" 
+						borderRadius="30" borderColor="#BEBEBE" borderWidth="1" />	
+				</View>
+			</View>
+					
+		</View>
+		
+		<View id="vBorderBottom" class="vBorder" />	
+	</View>
+</Alloy>

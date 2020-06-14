@@ -1,0 +1,16 @@
+{
+	"id": "dev.first.controls.period",
+	"name": "dev.first.controls.period",
+	"description" : "Period",
+	"author": "ralipar",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios,mobileweb",
+	"dependencies":{
+		"dev.first.controls.datefield":"1.0"
+	}
+}

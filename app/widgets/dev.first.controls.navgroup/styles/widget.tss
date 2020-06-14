@@ -1,0 +1,250 @@
+"#mainWindow": {
+	width : "100%",
+	height : "100%",
+	backgroundColor : "#2B3F4E",
+	layout : "composite",
+	tabBarHidden : true,
+	navBarHidden : true,
+	fullscreen : false
+},
+
+"#menuView": {
+	top : 0,
+	left : 0,
+	width : Ti.UI.SIZE,
+	zIndex : 1,
+	height : "100%",
+	layout : "composite",
+	backgroundColor: "#333333"
+},
+
+"#menuTable": {
+	top : 0,
+	backgroundColor: "#333333",
+	color: "#ffffff",
+	separatorColor: "#2A2A2A",
+	minRowHeight : 60,
+	height : Ti.UI.FILL	
+},
+
+"#contentView": {
+	top : 0,
+	left : 0,
+	zIndex: 3,
+	backgroundColor : "#D7DADB",
+	layout : "vertical",
+	width : "100%",
+	height : "100%"
+},
+
+"#nav": {
+	top: 0,
+	backgroundColor : "#2B3F4E",
+	color : "#FFFFFF",
+	layout : "composite",
+	width : "100%",
+	height : 50,
+	backgroundColor : "#2B3F4E"
+},
+
+"#backButtonTitle": {
+	color : "#FFFFFF",
+	textAlign : "left",
+	
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	},
+	
+	left : 23,
+	ellipsize : true,
+	wordWrap : false
+},
+
+"#backButtonTitle[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#winTitle": {
+	color : "#FFFFFF",
+	textAlign : "center",
+	width : "100%",
+
+	font : {
+		fontSize : "18dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	}
+},
+
+"#winTitle[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"#mainView": {
+	left : 0,
+	width : "100%",
+	height : Ti.UI.FILL,
+	backgroundColor : "#D7DADB",
+	layout : "composite"
+},
+
+"#lblHeader1": {
+	color : "#FFFFFF",
+	width : "96%",
+	height : Ti.UI.SIZE,
+	top : 5,
+
+	font: {
+		fontSize : "14dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	}
+},
+
+"#lblHeader1[platform=android]": {
+	font: {
+		fontSize : "14dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"#lblHeader2": {
+	color : "#A3A3A3",
+	width : "96%",
+	height : Ti.UI.SIZE,
+	bottom : 5,
+
+	font: {
+		fontSize : "15dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"#lblHeader2[platform=android]": {
+	font: {
+		fontSize : "15dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#lblFooter": {
+	color : "#FFFFFF",
+	left : 40,
+	text : "Logout",
+	
+	font : {
+		fontSize : "18dp",
+		fontFamily: 'Open Sans'
+	},
+	
+	text : "Logout",
+	left : 45
+},
+
+"#lblFooter[platform=mobileweb]": {
+	left : 35
+}
+
+"#lblFooter[platform=android]": {
+	font : {
+		fontSize : "18dp",
+		fontFamily: 'OpenSans-Regular'
+	}
+},
+
+"#vTop": {
+	width : "100%",
+	layout : "vertical",
+	top : 0,
+	backgroundColor : "#333333"
+},
+
+"#oView1": {
+	width : Ti.UI.FILL,
+	height : Ti.UI.SIZE,
+	layout : "vertical",
+	backgroundColor : "#2A2A2A",
+	top : 0
+},
+
+"#mFooter": {
+	width : Ti.UI.FILL,
+	height : 40,
+	layout : "composite",
+	backgroundColor : "#333333",
+	bottom : 0,
+	borderWidth : 1,
+	borderColor : "#2A2A2A"
+},
+
+"#icoLogout": {
+	text : "!",
+	width : 25,
+	height : 25,
+	left : 5,
+	color : "#ffffff",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "25dp"
+	}
+},
+
+"#leftButtonView": {
+	left : 0,
+	width : 50,
+	height : 50,
+	layout : "composite"
+},
+
+"#icoLeftButton": {
+	width : 40,
+	color : "#fff",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "35dp"
+	}
+},
+
+"#backButtonTitleView": {
+	left : 0,
+	width : "25%",
+	height : 50,
+	layout : "composite",
+	visible : false
+},
+
+"#icoBack": {
+	width : 15,
+	height : 22,
+	left : 5,
+	color : "#fff",
+	text : "<",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "22dp"		
+	}
+},
+
+"#rightButtonView": {
+	right : 0,
+	width : Ti.UI.SIZE,
+	height : 50,
+	layout : "composite",
+	right : 5,
+	textAlign : "right"
+},
+
+"#icoRightButton": {
+	color : "#fff",
+	height : 50
+}

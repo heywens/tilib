@@ -1,0 +1,51 @@
+"Label": {
+	textAlign : "center",
+	color : "#000000",
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#winInfo": {
+	layout : "composite",
+	width : "100%",
+	height : "100%",
+	opacity : 1,
+	navBarHidden : true
+},
+
+"#trans": {
+	width : "100%",
+	height : "100%",
+	backgroundColor : "#000000",
+	opacity : 0.6
+},
+
+"#mView": {
+	width : "80%",
+	height : 200,
+	layout : "vertical",
+	opacity : 1
+},
+
+"#msg": {
+	width : "100%",
+	height : 150,
+	backgroundColor : "#fcfcfc"
+},
+
+"#opt": {
+	width : Ti.UI.FILL,
+	height : 50,
+	layout : "horizontal",
+	backgroundColor : "#b30024"
+}

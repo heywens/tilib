@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="winAuth">
+		<!-- Transparent/glass background for modal -->
+		<View id="transView"/>
+		
+		<View id="oView1">
+			<Label id="lblTitle" />
+			<View id="iView1">
+				<TextField id="sle_userid" />
+				<TextField id="sle_password" />
+			</View>	
+			
+			<View id="navBottom">
+				<Label id="btnCancel"/>
+				<View id="iView2"/>
+				<Label id="btnOK"/>				
+			</View>		
+		</View>
+	</Window>
+</Alloy>

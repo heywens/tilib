@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="winOptions">
+		
+		<View id="trans" />
+		
+		<View id="mView">
+			<Label id="title" />
+			<View id="opt" />
+		</View>
+			
+	</Window>
+</Alloy>

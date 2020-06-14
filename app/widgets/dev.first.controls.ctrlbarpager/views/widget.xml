@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="ctrlbar">
+		<View id="oView1">
+			<Label id="btnBack" class="pagerArrow" />
+			<Label id="lblPage" />
+			<Label id="btnForward" class="pagerArrow" />
+		</View>
+		<Label id="btnOptions" />
+	</View>	
+</Alloy>

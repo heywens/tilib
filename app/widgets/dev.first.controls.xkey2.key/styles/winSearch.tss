@@ -1,0 +1,150 @@
+"#lblTitle": {
+	textAlign : "center",
+	height : Ti.UI.SIZE,
+
+	font : {
+		fontSize : "18dp",
+		fontWeight : "bold",
+		fontFamily : "Open Sans"
+	},
+	
+	width : "60%"
+},
+
+"#lblTitle[platform=android]": {
+	font: {
+		fontSize : "18dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"Label": {
+	color : "#FFFFFF",
+	height : 30,
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font: {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"TextField[platform=mobileweb]": {
+	height: 40,
+	width: Titanium.UI.INHERIT,
+	borderWidth : 0,
+	borderRadius : 3,
+	top : -2,
+ 	backgroundColor:'transparent',
+	borderStyle :  Titanium.UI.INPUT_BORDERSTYLE_NONE
+},
+
+"TextField": {
+	width : Titanium.UI.FILL,
+	height : Titanium.UI.SIZE,
+	top : 4,
+	bottom : 4,
+	left : 5
+},
+
+"TextField[platform=ios formFactor=handheld]": {
+	height : 30,
+	left : 10,
+	borderStyle :  Titanium.UI.INPUT_BORDERSTYLE_NONE
+},
+
+
+"TextField[platform=ios formFactor=tablet]": {
+	height : 30,
+	left : 10,
+	borderStyle :  Titanium.UI.INPUT_BORDERSTYLE_NONE
+},
+
+"#winSearch": {
+	width : "100%",
+	layout : "vertical",
+	height : "100%",
+	navBarHidden : true,
+	backgroundColor : "#FFFFFF"
+},
+
+"#nav": {
+	width : "100%",
+	layout : "absolute",
+	height : 50,
+	backgroundColor : "#2B3F4E"
+},
+
+"#btnCancel": {
+	text : "Cancel",
+	width : 60,
+	left : 10,
+	textAlign : "left",
+	height : 50
+},
+
+"#btnReset": {
+	text : "Clear",
+	width : 60,
+	right : 10,
+	textAlign : "right",
+	height : 50
+},
+
+"#searchBar": {
+	layout : "composite",
+	height : 60,
+	width : "100%",
+	backgroundColor : "#D7DADB"
+},
+
+"#vSearch": {
+	height : 40,
+	layout : "composite",
+	left : 10,
+	backgroundColor : "#FFFFFF",
+	borderRadius : 20,
+	borderWidth : 0.5,
+	borderColor : "#AEB5B7"
+},
+
+"#fkeyword": {
+	left : 10
+},
+
+"#btnClear": {
+	text : "_",
+	width : 24,
+	height : 22,
+	right : 4,
+	color : "#acacac",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "20dp"
+	}
+},
+
+"#btnSearch": {
+	text : "?",
+	width : 40,
+	height : 36,
+	right : 5,
+	color : "#017ef6",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "35dp"
+	}
+},
+
+"#tblView": {
+	width : "100%",
+	separatorColor : "#C2C7C8"
+}

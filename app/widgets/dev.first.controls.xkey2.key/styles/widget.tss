@@ -1,0 +1,139 @@
+"#formItemLabel": {
+	textAlign : "left",
+	color : "#000000",
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans",
+		fontWeight : "bold"
+	},
+	
+	left : 15,
+	width : Ti.UI.FILL
+},
+
+"#formItemLabel[platform=android]":{
+	font : {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Bold"
+	}
+},
+
+"Label": {
+	textAlign : "right",
+	color : "#365583",
+
+	font : {
+		fontSize : "16dp",
+		fontFamily : "Open Sans"
+	}
+},
+
+"Label[platform=android]": {
+	font : {
+		fontSize : "16dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#tiname": {
+	textAlign : "right",
+	color : "#365583",
+
+	font : {
+		fontSize : "14dp",
+		fontFamily : "Open Sans"
+	},
+	
+	width : "100%",
+	right : 0,
+	height : Ti.UI.SIZE
+},
+
+"#tiname[platform=android]": {
+	font : {
+		fontSize : "14dp",
+		fontFamily : "OpenSans-Regular"
+	}
+},
+
+"#icoPointer": {
+	height : 22,
+	text : "/",
+	width : 24,
+	left : 65,
+	color : "#2dc2fa",
+	textAlign : "left",
+	
+	font : {
+		fontFamily : "HqTi",
+		fontSize : "20dp"
+	}
+},
+
+"View": {
+	height : "Ti.UI.SIZE"
+},
+
+".vBorder": {
+	backgroundColor : "#C2C7C8",
+	height : 1,
+	width : "100%"
+},
+
+"#vBorderTop": {
+	top : 0
+},
+
+"#vBorderBottom": {
+	bottom : 0
+},
+
+"#mView": {
+	backgroundColor : "#FFFFFF",
+	layout : "absolute",
+	height : Ti.UI.SIZE,
+	width : "100%",
+	left : 0
+},
+
+"#cview": {
+	top : "10",
+	bottom : "10",
+	layout : "horizontal",
+	height : Ti.UI.SIZE,
+	width : "100%"
+},
+
+"#vformItemLabel": {
+	width : "40%",
+	height : Ti.UI.SIZE,
+	layout : "horizontal"
+},
+
+"#vFormItem": {
+	width : "60%",
+	height : Ti.UI.SIZE,
+	layout : "composite"
+},
+
+"#vlblValue": {
+	layout : "vertical",
+	height : Ti.UI.SIZE,
+	top : 0,
+	right : 44,
+	width : "80%"
+},
+
+"#ti": {
+	width : "100%",
+	right : 0,
+	height : Ti.UI.SIZE
+},
+
+"#vSelect": {
+	width : 100,
+	height : Ti.UI.SIZE,
+	right : 0,
+	layout : "composite"
+}

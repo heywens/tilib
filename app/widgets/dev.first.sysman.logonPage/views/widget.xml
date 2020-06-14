@@ -1,0 +1,55 @@
+<Alloy>
+	<Window id="winLogonPage">
+		<View id="scrollBody">
+			
+			<View id="btnGPlay" platform="mobileweb" width="95%" height="50" backgroundColor="#202f3a" 
+							bottom="5%" layout="composite">
+				<Label id="mLink" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+			</View>
+			
+			<View id="mBody"> 
+				<View id="imgLogo" />
+				<Label id="lblApp" />
+				<Label id="lblVersion" />
+				
+				<View id="viewContainer">
+					<View id="useridView">
+						<TextField id="authuserid" />
+					</View>							
+					<View id="spacer" />
+					<View id="passwordView">
+						
+						<TextField platform="ios,android" id="authuserpassword" hintText="Password" 
+								passwordMask="true" width="95%" />
+								
+						<TextField platform="mobileweb" id="authuserpassword" hintText="Password" 
+								passwordMask="true" width="80%" />
+								
+						<Label platform="mobileweb" id="icoSignOn" />		
+					</View>		
+				</View>
+				
+				<View id="btnContainer" platform="android,ios" width="95%" height="50" backgroundColor="#B40026" 
+						top="10" layout="composite">
+					<View id="btnLogin" width="Ti.UI.SIZE" layout="horizontal" 
+							height="Ti.UI.SIZE">
+							<Label id="icoSignIn" />
+						
+							<Label id="lblSignOn" text="Sign On" color="#FFFFFF"
+									width="Ti.UI.SIZE" height="Ti.UI.SIZE" left="5" />
+					</View>
+				</View>
+				
+				<View id="linkView">
+					<Label id="lblConfigure" platform="ios,android" text="Configure Server" class="lblLink" />
+				</View>
+			</View>
+			
+		</View>	
+		
+		
+		<View id="emptyView" /> 
+		
+		<Label id="lblCopyright" />
+	</Window>
+</Alloy>
